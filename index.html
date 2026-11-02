@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ancient Remedies - Natural Healing Masterclass</title>
+    
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Custom Tailwind Configuration -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'sand-bg': '#F7F5F0',
+                        'sage-green': '#284B3B',
+                        'terracotta': '#B85741',
+                        'warm-gold': '#D4AF37',
+                        'dark-charcoal': '#1A1A1A'
+                    },
+                    fontFamily: {
+                        'serif': ['Merriweather', 'serif'],
+                        'sans': ['Inter', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Merriweather:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-sand-bg font-sans text-gray-800">
+
+    <!-- Top Scrolling Announcement Bar (Infinite Marquee) -->
+<div class="bg-sage-green text-white text-xs md:text-sm font-bold py-2.5 overflow-hidden whitespace-nowrap relative z-50 border-b border-white/10">
+    <div class="inline-flex animate-marquee whitespace-nowrap">
+        <!-- Primeiro bloco de texto -->
+        <div class="flex items-center gap-8 mx-4">
+            <span>🌿 53 ANCIENT REMEDIES</span>
+            <span>•</span>
+            <span>260,000+ PEOPLE HEALING WITHOUT EXPENSIVE PRESCRIPTIONS & DENTAL BILLS</span>
+            <span>•</span>
+            <span>GET CLARA SAGE'S ANCIENT REMEDY BOOK TODAY FOR $8.00</span>
+            <span>•</span>
+            <span>50+ YEARS OF HOLISTIC PRACTICE</span>
+            <span>•</span>
+        </div>
+        <!-- Segundo bloco idêntico para criar o loop contínuo sem falhas -->
+        <div class="flex items-center gap-8 mx-4">
+            <span>🌿 53 ANCIENT REMEDIES</span>
+            <span>•</span>
+            <span>260,000+ PEOPLE HEALING WITHOUT EXPENSIVE PRESCRIPTIONS & DENTAL BILLS</span>
+            <span>•</span>
+            <span>GET CLARA SAGE'S ANCIENT REMEDY BOOK TODAY FOR $8.00</span>
+            <span>•</span>
+            <span>50+ YEARS OF HOLISTIC PRACTICE</span>
+            <span>•</span>
+        </div>
+    </div>
+</div>
+
+    <!-- Hero Section -->
+    <main class="max-w-4xl mx-auto px-4 py-12 md:py-20 text-center animate-on-scroll">
+        <h1 class="font-serif text-4xl md:text-5xl lg:text-6xl text-sage-green font-black leading-tight mb-6">
+            Why Big Pharma Is Terrified Of This 53-Year-Old Holistic Secret
+        </h1>
+        <p class="text-gray-700 text-lg md:text-xl max-w-3xl mx-auto mb-10 leading-relaxed">
+            Transform your health—from yellow teeth and gut issues to chronic fatigue—using simple, natural ingredients <span class="font-bold text-terracotta">already sitting in your kitchen.</span>
+        </p>
+
+        <!-- Product Image -->
+        <div class="relative max-w-2xl mx-auto mb-12">
+            <div class="absolute -inset-2 bg-gradient-to-r from-warm-gold to-yellow-100 rounded-xl opacity-50 blur-lg"></div>
+            <img src="ebookproduct.jpg" alt="The Ancient Remedy Book" class="relative rounded-xl shadow-2xl border border-gray-200 w-full object-cover">
+        </div>
+
+        <div class="flex flex-col items-center gap-3">
+            <p class="text-sm font-bold text-gray-500 uppercase tracking-widest">
+                Special Offer: <span class="text-sage-green">$8.00</span> <span class="line-through font-normal text-gray-400 ml-1">(Others charge $9.97+)</span>
+            </p>
+            <!-- COLAR O SEU LINK DA HOTMART AQUI NO HREF -->
+            <a href="https://pay.hotmart.com/G108304348B?off=kqh3tw5c" target="_blank" class="btn-pulse inline-flex items-center justify-center gap-2 bg-terracotta hover:bg-red-800 text-white text-xl md:text-2xl font-bold py-4 px-10 rounded-lg shadow-xl transition-all duration-300 w-full sm:w-auto border-b-4 border-red-950">
+                <span>👉 Claim My Digital Book: $8.00</span>
+            </a>
+            <p class="text-sm text-gray-600 font-semibold mt-3">
+                Instant PDF Download • Secure Checkout
+            </p>
+        </div>
+    </main>
+
+    <!-- NEW: Author Section -->
+    <section class="max-w-4xl mx-auto px-4 py-10 animate-on-scroll">
+        <div class="bg-white rounded-2xl p-8 md:p-12 shadow-xl border border-gray-200 flex flex-col md:flex-row items-center gap-10">
+            <div class="md:w-1/3 flex justify-center">
+                <img src="clara-avatar2k.jpg" alt="Clara Sage" class="rounded-full w-48 h-48 md:w-56 md:h-56 object-cover shadow-lg border-4 border-sage-green">
+            </div>
+            <div class="md:w-2/3 text-center md:text-left">
+                <span class="text-terracotta font-bold tracking-widest text-sm uppercase">Meet Your Guide</span>
+                <h2 class="font-serif text-3xl font-bold text-dark-charcoal mt-2 mb-4">Hi, I'm Clara Sage</h2>
+                <p class="text-gray-600 text-lg leading-relaxed">
+                    For over two decades, I watched the cosmetic and pharmaceutical industries charge hundreds of dollars for quick fixes that never address the root cause. I created <strong>The Ancient Remedy Book</strong> to give you 53 proven, natural kitchen protocols that restore your health, skin, and vitality from the inside out.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recipes Section -->
+    <section class="max-w-5xl mx-auto px-4 py-16 space-y-16">
+        <div class="text-center mb-10">
+            <h2 class="font-serif text-3xl md:text-4xl text-dark-charcoal font-bold leading-tight">
+                Everything The Industry Doesn't Want You To Find Is Inside This <span class="text-terracotta underline decoration-warm-gold decoration-4 underline-offset-4">One Book.</span>
+            </h2>
+        </div>
+
+        <!-- Recipe Card 1 -->
+        <div class="animate-on-scroll border border-gray-200 rounded-2xl p-6 md:p-10 flex flex-col md:flex-row gap-8 bg-white shadow-xl">
+            <div class="flex-1">
+                <span class="bg-sage-green text-white text-xs font-bold uppercase tracking-wider py-1 px-3 rounded-full mb-4 inline-block">Module 1</span>
+                <h3 class="font-serif text-3xl text-dark-charcoal font-bold mb-4">Heal Your Body Without A Single Prescription</h3>
+                <p class="text-gray-600 mb-6 text-lg">The exact remedies they replaced with expensive monthly subscriptions.</p>
+                <ul class="space-y-5 text-gray-800">
+                    <li class="flex items-start gap-3">
+                        <svg class="w-6 h-6 text-sage-green flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path></svg>
+                        <p><strong>Kidney flush remedy:</strong> support and cleanse what your doctor said nothing could be done about.</p>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <svg class="w-6 h-6 text-sage-green flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path></svg>
+                        <p><strong>Gut cleanse remedy:</strong> wipe out what has been draining your energy for months in days.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Recipe Card 2 -->
+        <div class="animate-on-scroll border border-gray-200 rounded-2xl p-6 md:p-10 flex flex-col md:flex-row gap-8 bg-white shadow-xl">
+            <div class="flex-1">
+                <span class="bg-terracotta text-white text-xs font-bold uppercase tracking-wider py-1 px-3 rounded-full mb-4 inline-block">Module 2</span>
+                <h3 class="font-serif text-3xl text-dark-charcoal font-bold mb-4">Look Younger Without Expensive Treatments</h3>
+                <p class="text-gray-600 mb-6 text-lg">The remedies the cosmetic industry charges hundreds for every year.</p>
+                <ul class="space-y-5 text-gray-800">
+                    <li class="flex items-start gap-3">
+                        <svg class="w-6 h-6 text-terracotta flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path></svg>
+                        <p><strong>Teeth whitening remedy:</strong> get your teeth white again without a single painful dental visit.</p>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <svg class="w-6 h-6 text-terracotta flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path></svg>
+                        <p><strong>Skin & Hair remedy:</strong> restore thickness and clear dark spots naturally.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEW: Reviews / Social Proof Section -->
+    <section class="max-w-6xl mx-auto px-4 py-16 animate-on-scroll">
+        <h2 class="font-serif text-3xl md:text-4xl font-bold text-center text-dark-charcoal mb-12">What Readers Are Saying</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-white p-8 rounded-xl shadow-md border border-gray-200">
+                <div class="text-warm-gold text-2xl mb-4">⭐⭐⭐⭐⭐</div>
+                <p class="text-gray-700 italic mb-6">"The teeth whitening remedy alone was worth 10x the price. My dentist was genuinely shocked at my checkup!"</p>
+                <p class="font-bold text-sage-green">— Sarah T., Texas</p>
+            </div>
+            <div class="bg-white p-8 rounded-xl shadow-md border border-gray-200">
+                <div class="text-warm-gold text-2xl mb-4">⭐⭐⭐⭐⭐</div>
+                <p class="text-gray-700 italic mb-6">"Finally, a simple gut-cleansing protocol that actually works without having to buy expensive daily supplements."</p>
+                <p class="font-bold text-sage-green">— Michael R., Florida</p>
+            </div>
+            <div class="bg-white p-8 rounded-xl shadow-md border border-gray-200">
+                <div class="text-warm-gold text-2xl mb-4">⭐⭐⭐⭐⭐</div>
+                <p class="text-gray-700 italic mb-6">"Practical, clear, and effective. The liver tonic restored my daily energy in less than a week. Highly recommend."</p>
+                <p class="font-bold text-sage-green">— Emily K., California</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Urgency & Offer Section -->
+    <section id="offer-section" class="bg-dark-charcoal text-white py-20 px-4 text-center mt-8 animate-on-scroll">
+        <div class="max-w-3xl mx-auto">
+            <h2 class="font-serif text-3xl md:text-5xl font-bold mb-6">
+                If Bought Separately, You Would Pay <span class="text-red-500 line-through">$97</span>.
+            </h2>
+            <p class="text-xl text-gray-300 mb-10">
+                Why pay <span class="font-bold text-white">$9.99</span> for lesser guides when you can get the ultimate masterclass today?
+            </p>
+            <div class="flex justify-center items-center gap-6 mb-8">
+                <span class="text-5xl md:text-7xl font-serif font-black text-warm-gold tracking-tight">$8.00</span>
+                <div class="text-left">
+                    <p class="font-bold text-lg leading-tight uppercase">Today<br>Only</p>
+                </div>
+            </div>
+            
+            <p class="text-gray-400 font-bold text-sm uppercase mb-4 tracking-widest">
+                This massive discount expires in:
+            </p>
+            <div class="flex justify-center gap-4 mb-10">
+                <div class="flex flex-col items-center">
+                    <div id="timer-minutes" class="bg-white text-dark-charcoal text-4xl font-bold rounded-lg px-5 py-4 shadow-lg border-b-4 border-gray-300">14</div>
+                    <span class="text-xs uppercase mt-2 font-semibold tracking-wider text-gray-400">Minutes</span>
+                </div>
+                <div class="text-4xl font-bold self-start mt-3 text-warm-gold">:</div>
+                <div class="flex flex-col items-center">
+                    <div id="timer-seconds" class="bg-white text-dark-charcoal text-4xl font-bold rounded-lg px-5 py-4 shadow-lg border-b-4 border-gray-300">59</div>
+                    <span class="text-xs uppercase mt-2 font-semibold tracking-wider text-gray-400">Seconds</span>
+                </div>
+            </div>
+            <!-- COLAR O SEU LINK DA HOTMART AQUI NO HREF -->
+            <a href="https://pay.hotmart.com/G108304348B?off=kqh3tw5c" target="_blank" class="btn-pulse inline-flex items-center justify-center gap-2 bg-warm-gold hover:bg-yellow-500 text-black text-xl md:text-2xl font-black py-5 px-12 rounded-lg shadow-[0_0_20px_rgba(212,175,55,0.3)] transition-all w-full sm:w-auto">
+                <span>👉 Secure My Copy For $8.00</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- NEW: Guarantee Section -->
+    <section class="max-w-3xl mx-auto px-4 py-16 animate-on-scroll">
+        <div class="bg-sage-green text-white rounded-2xl p-8 md:p-10 text-center shadow-2xl border-4 border-warm-gold">
+            <svg class="w-16 h-16 mx-auto mb-4 text-warm-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+            <h2 class="font-serif text-3xl font-bold mb-4 text-warm-gold">100% Risk-Free: 7-Day Guarantee</h2>
+            <p class="text-lg text-gray-200">
+                Try the remedies inside <strong>The Ancient Remedy Book</strong> for 7 full days. If you are not completely satisfied with your results, simply reach out to us and we will refund every single cent of your $8.00 investment. No questions asked.
+            </p>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="max-w-3xl mx-auto px-4 pb-20 animate-on-scroll">
+        <h2 class="font-serif text-3xl font-bold text-center text-dark-charcoal mb-10">Got Questions? We Have Answers.</h2>
+        <div class="space-y-4">
+            <details class="group bg-white border border-gray-200 rounded-xl shadow-sm overflow-hidden">
+                <summary class="flex justify-between items-center font-bold cursor-pointer list-none p-6 text-gray-800 hover:bg-gray-50 transition-colors">
+                    <span>What exactly is the Ancient Remedy Book?</span>
+                    <span class="transition group-open:rotate-180 text-sage-green">
+                        <svg fill="none" height="24" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="24"><path d="M19 9l-7 7-7-7"></path></svg>
+                    </span>
+                </summary>
+                <div class="text-gray-600 bg-gray-50 p-6 pt-2 border-t border-gray-100">
+                    It is a comprehensive digital guide packed with 53 natural recipes using everyday kitchen ingredients to help heal and restore your body.
+                </div>
+            </details>
+            <details class="group bg-white border border-gray-200 rounded-xl shadow-sm overflow-hidden">
+                <summary class="flex justify-between items-center font-bold cursor-pointer list-none p-6 text-gray-800 hover:bg-gray-50 transition-colors">
+                    <span>How do I receive the book after I purchase?</span>
+                    <span class="transition group-open:rotate-180 text-sage-green">
+                        <svg fill="none" height="24" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="24"><path d="M19 9l-7 7-7-7"></path></svg>
+                    </span>
+                </summary>
+                <div class="text-gray-600 bg-gray-50 p-6 pt-2 border-t border-gray-100">
+                    Immediately after your secure checkout, you will receive an email containing a link to download your digital book (PDF) which can be read on any smartphone, tablet, or computer.
+                </div>
+            </details>
+            <details class="group bg-white border border-gray-200 rounded-xl shadow-sm overflow-hidden">
+                <summary class="flex justify-between items-center font-bold cursor-pointer list-none p-6 text-gray-800 hover:bg-gray-50 transition-colors">
+                    <span>Why is the price only $8.00? (Competitors charge $9.99+)</span>
+                    <span class="transition group-open:rotate-180 text-sage-green">
+                        <svg fill="none" height="24" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="24"><path d="M19 9l-7 7-7-7"></path></svg>
+                    </span>
+                </summary>
+                <div class="text-gray-600 bg-gray-50 p-6 pt-2 border-t border-gray-100">
+                    We believe this crucial information should be accessible to everyone. By cutting out middle-men and delivering digitally, we pass the savings directly to you, undercutting the market average.
+                </div>
+            </details>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-200 py-10 text-center text-gray-500 px-4">
+        <div class="max-w-4xl mx-auto">
+            <p class="text-sm font-semibold text-gray-700 mb-4">© 2026 The Ancient Remedy Book. All rights reserved.</p>
+            <!-- NEW: Medical Disclaimer -->
+            <p class="text-xs text-gray-500 leading-relaxed max-w-3xl mx-auto">
+                Disclaimer: The information provided in this book and on this website is for educational purposes only and is not intended as a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition. This product is not intended to diagnose, treat, cure, or prevent any disease.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Link para o seu arquivo JavaScript externo -->
+    <script src="script.js" defer></script>
+</body>
+</html>
